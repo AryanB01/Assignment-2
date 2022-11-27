@@ -144,3 +144,8 @@ body > main > form > div > input[type=submit]{
     margin: auto;
     padding: 5px;
 }
+footer{
+    background-color: rgb(19, 17, 17);
+    color: white;
+    width: 15%;
+ }
