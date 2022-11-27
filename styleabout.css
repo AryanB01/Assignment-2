@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* font-family: 'Rubik Distressed', cursive;*/
+/* font-family: 'Open Sans', sans-serif; */
+*{
+    /* outline: 2px dotted black; */
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* css for index */
+/* For header */
+header{
+    background-image: url(./newbackground.jpeg);
+    background-position:center;
+    background-size: cover;
+    opacity: 0.7;
+}
+#aboutmainNav ul{
+    display: flex;
+    gap: 10px;
+    justify-content:space-around;
+    align-items: center;
+    padding: 4em;
+    
+    }
+
+#aboutmainNav ul li{
+    font-size: 1.5em;
+    
+}
+#aboutmainNav ul li a{
+    color:rgb(0, 0, 0); 
+    font-weight: 800;
+    text-decoration: none; 
+    padding: 0.5em 1em;
+    border-radius: 10%;
+    border: 1px solid rgba(218, 209, 209, 0.7);
+}
+
+#aboutmainNav ul li a:hover {
+   background-color: rgba(31, 28, 28, 0.4);
+   transition-delay: 25ms;
+}
+
+#aboutMainHead h1{
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 3em;
+    color: rgb(255, 244, 244);
+    padding: 1em;
+    opacity: 0.8;
+    margin-bottom: 0.5em;
+}
+/* For main parts of about */
+main{
+    display:flex;
+    flex-direction: column;
+    /* width: 50vw; */
+    align-items: center;
+    
+    
+    gap: 1em;
+}
+
+.firstSection h2{
+    background-color: rgb(201, 158, 65);
+    color: white;
+    padding: 10px;
+    
+}
+.firstSection p{
+padding: 10px;
+
+}
+.firstSection ul {
+  list-style-type: circle;  
+  margin: 0.5em;
+  list-style-position: inside;
+}
+
+.firstSection ul li{
+    padding: 6px;
+}
+/* Second section css */
+.secondSection{
+    width: 57vw;
+}
+.secondSection h2{
+    background-color: rgb(201, 158, 65);
+    color: white;
+    padding: 10px;
+    
+}
+
+.secondSection ul {
+  list-style-type: circle;  
+  margin: 0.5em;
+  list-style-position: inside;
+}
+
+.secondSection ul li{
+    padding: 6px;
+}
+.lastNoteDiv {
+    padding: 10px;
+    text-align: center;
+    font-weight: 550;
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 15%;
+ }

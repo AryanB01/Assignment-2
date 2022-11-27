@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* font-family: 'Rubik Distressed', cursive;*/
+/* font-family: 'Open Sans', sans-serif; */
+*{
+    /* outline: 2px dotted black; */
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* css for index */
+/* header style*/
+header{
+    background-image: url(./newbackground.jpeg);
+    background-position:center;
+    background-size: cover;
+    opacity: 0.7;
+}
+#mainNav ul{
+    display: flex;
+    gap: 10px;
+    justify-content:space-around;
+    align-items: center;
+    padding: 4em;
+    
+    }
+
+#mainNav ul li{
+    font-size: 1.5em;
+    
+}
+#mainNav ul li a{
+    color:rgb(0, 0, 0); 
+    font-weight: 800;
+    text-decoration: none; 
+    padding: 0.5em 1em;
+    border-radius: 10%;
+    border: 1px solid rgba(218, 209, 209, 0.7);
+}
+
+#mainNav ul li a:hover {
+   background-color: rgba(31, 28, 28, 0.4);
+   transition-delay: 25ms;
+}
+
+
+#mainHeader h1{
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 3em;
+    color: rgb(255, 244, 244);
+    padding: 1em;
+    opacity: 0.8;
+    margin-bottom: 0.5em;
+}
+#mainImageprofile{
+    display:flex;
+    justify-content: center;
+    
+}
+#mainImageprofile img{
+    
+    border-radius: 50%;
+    opacity: 0.9;
+
+ }
+
+ /* calltoaction css */
+ #calltoAction{
+    display: flex;
+    justify-content: right;
+    
+ }
+ #calltoAction a {
+    color:rgb(255, 251, 251); 
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none; 
+    padding:1em;
+    border-radius: 4px;
+    border: 1px solid rgba(218, 209, 209, 0.7);
+ }
+ #calltoAction a:hover{
+    background-color: rgba(31, 28, 28, 0.4);
+   transition-delay: 25ms;
+ }
+/* style for main parts*/
+
+main{
+    display: flex;
+    margin-top: 10px;
+}
+
+main article{
+   justify-content: space-around;
+   padding:1em;
+    width: 31%;
+    border: 1px solid black;
+}
+
+.headforParagraph{
+   padding: 1em;
+   margin: 5px 0;
+   background-color: rgb(201, 158, 65);
+   color: white;
+}
+
+footer{
+   background-color: rgb(19, 17, 17);
+   color: white;
+   width: 15%;
+}
+
+ 

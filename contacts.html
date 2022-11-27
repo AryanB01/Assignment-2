@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylecontact.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <title>Contacts Page</title>
+  </head>
+  <body>
+    <header>
+      <nav id="contactmainNav">
+        <ul>
+          <li>
+            <a href="./index.html"> Home</a>
+          </li>
+          <li>
+            <a href="./about.html">About</a>
+          </li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+      <div id="contactmainHead">
+        <h1>Aryan : And his Page</h1>
+      </div>
+    </header>
+    <section id="contactInformationSection">
+      <p>
+        If my profile was worth visiting then please consider contacting me for
+        job: <i>Here are my Contacts.</i>
+      </p>
+      <div>
+        <h2>Email:</h2>
+        <a href="mailto:aryanbhattarai000@gmail.com">Email</a>
+      </div>
+      <div>
+        <h2>Linkedin:</h2>
+        <a
+          href="https://www.linkedin.com/in/aryan-bhattarai-4135961b5"
+          target="_blank"
+          >Linkedin</a
+        >
+      </div>
+      
+      <div>
+        <h2>Git Hub:</h2>
+        <a href="https://github.com/AryanB01" target="_blank">Github</a>
+      </section>
+      </div>
+      
+    <div class="contactEndingNote">
+      <h3>For More Inquires. Please fill this form.</h3>
+    </div>
+
+    <main>
+      <form
+        action="./index.html"
+        method="post"
+        name="Contactform-week3"
+        netlify
+      >
+        <fieldset>
+          <legend>Your Information</legend>
+          <div>
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              name="fullName"
+              id="fullName"
+              required
+              placeholder="Aryan Bhattarai"
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Your Contact</legend>
+          <div>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="aryan@gmail.com"
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Inquires</legend>
+          <div>
+            <label for="inquiryMsg">Your Inquiry Msg</label>
+            <textarea
+              type="text"
+              name="inquiryMsg"
+              id="inquiryMsg"
+              row="30"
+              cols="50"
+              required
+            ></textarea>
+          </div>
+        </fieldset>
+        <div>
+          <input type="submit" value="Submit Inquiry" />
+        </div>
+      </form>
+    </main>
+    <br />
+    <footer>&copy;2022 copyright Aryan Bhattarai</footer>
+  </body>
+</html>
